@@ -1,6 +1,6 @@
 import unittest
 
-from src.espiral import Espiral
+from Junk_Food.src.espiral import Espiral
 
 
 class TestEspiral(unittest.TestCase):

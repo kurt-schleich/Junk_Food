@@ -1,4 +1,4 @@
-from src.maquina import Maquina
+from Junk_Food.src.maquina import Maquina
 
 if __name__ == '__main__':
 

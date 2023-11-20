@@ -1,6 +1,6 @@
 import unittest
 
-from src.maquina import Maquina
+from Junk_Food.src.maquina import Maquina
 
 
 class TestMaquina(unittest.TestCase):
@@ -168,7 +168,7 @@ class TestMaquina(unittest.TestCase):
                          "Não deve ser possível vender um produto se o indice não corresponder a nenhuma espiral.")
 
     def testVenderProdutoSemDinheiroSuficiente(self):
-        maquina = (3, 4)
+        maquina = Maquina(3, 4)
         self.assertTrue(maquina.alterarEspiral(2, "Guaraná-Antártica", 2, 4.75),
                         "Deve ser possível alterar as informações da espiral com as descrições do produto se o índice estiver correto.")
         self.assertTrue(maquina.alterarEspiral(1, "Coca-Cola", 1, 3.25),
